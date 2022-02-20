@@ -313,7 +313,7 @@ export const Main = ({poppup, setPoppup}) => {
               <h2 className="main__game-title">QUICK GUIDE</h2>
               <b>Duck Network Token Address- 0x4eACB72F6BA99e1C69ac053dcb281387fF374d22 </b><br/>
 
-              <b>Started on: January 25,2022 at 2PM UTC</b><br/><br/>
+              <b>Started on: February 20,2022 at 7PM UTC</b><br/><br/>
               (1.) Stake BUSD and earn Daily Staking Rewards in DUCK TOKEN (4% per day).You can
               claim your $DUCK rewards anytime. You cannot unstake your staked BUSD.<br/>
 				<b>(You will earn $duck tokens as a percentage of BUSD invested irrespective of the $DUCK Price.)</b><br/>
