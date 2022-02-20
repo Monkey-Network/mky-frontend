@@ -12,9 +12,9 @@ const MonPadTitle = () => {
             <TitleContent>
                 <h2>MONKEY NETWORK STATISTICS &nbsp;
                     {
-                        blockNumber != 0 && blockNumber < 15430178 ?
+                        blockNumber != 0 && blockNumber < 1645383600 ?
                         <>
-                            <Countdown date={Date.now() + (15430178 - blockNumber) * 3000}>
+                            <Countdown date={Date.now() + (1645383600 - blockNumber) * 1000}>
                                 <Completionist />
                             </Countdown>
                             &nbsp;&nbsp;LEFT TO LIVE

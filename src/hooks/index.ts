@@ -104,7 +104,9 @@ export const useCurrentBlockNumber = () => {
   useEffect(() => {
       web3.eth.getBlockNumber()
       .then((blockNumber) => {
-        setBlockNumber(blockNumber)
+        web3.eth.getBlock(blockNumber).then((block) => {
+          setBlockNumber(typeof block.timestamp === "string" ? 0 : block.timestamp)
+        })
       })
   })
   return blockNumber

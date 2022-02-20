@@ -65,9 +65,7 @@ const MonpadDetails = () => {
           Telegram Group
         </a>
         {/* <font color="#D97D3E">|</font>
-        <a href="E" target="_blank" data-close="true">
-          Telegram Channel
-        </a> */}
+                <a href="E" target="_blank" data-close="true">Telegram Channel</a> */}
       </StyledLink>
     </MonPad>
   );

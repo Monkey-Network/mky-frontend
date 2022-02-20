@@ -50,7 +50,7 @@ const AirdropBox = ({poppup, setPoppup}) => {
     return (
         <MonBox>
             <h2>AIRDROP $MONKEY</h2>
-            <p>AIRDROP 100 $MONKEY at once</p>
+            <p>AIRDROP 50 $MONKEY at once</p>
             <p>You can get airdrop as many times you want</p>
             <p>You can get airdrop after 7 days again</p>
             <br></br>

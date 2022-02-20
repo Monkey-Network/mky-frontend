@@ -533,17 +533,14 @@ export const Main = ({ poppup, setPoppup }) => {
                         - Total Supply : The maximum amount of $DUCK that can
                         exist <br />
                         - Circulating Supply : The amount of $DUCK tokens that
-                        are currently in wallets <br />
-                        - Available Suppy : (Total Supply - Cirulating Supply){" "}
-                        <br />
-                        - $DUCK Price : (Total BUSD Balance / Available Supply){" "}
-                        <br />
+                        are currently in wallets <br />- Available Suppy :
+                        (Total Supply - Cirulating Supply) <br />- $DUCK Price :
+                        (Total BUSD Balance / Available Supply) <br />
                         - Mint $DUCK - As you claim $DUCK from minting, it is
                         removed from the Available Supply and added to the
-                        Circulating Supply <br />
-                        - Sell $DUCK - As you sell $DUCK, it is removed from the
-                        Circulating Supply and added to the Available Supply{" "}
-                        <br />
+                        Circulating Supply <br />- Sell $DUCK - As you sell
+                        $DUCK, it is removed from the Circulating Supply and
+                        added to the Available Supply <br />
                       </div>{" "}
                       <br />
                       <div className="main__referral-link">
